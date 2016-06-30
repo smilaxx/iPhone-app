@@ -14,8 +14,12 @@
 		3210C6F81D23E56600662D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3210C6F61D23E56600662D46 /* LaunchScreen.storyboard */; };
 		3210C7031D23E56600662D46 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210C7021D23E56600662D46 /* _____Tests.swift */; };
 		3210C70E1D23E56600662D46 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210C70D1D23E56600662D46 /* _____UITests.swift */; };
-		3210C71E1D23E95D00662D46 /* misawa_keybord.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3210C71D1D23E95D00662D46 /* misawa_keybord.jpeg */; };
-		3210C7201D23EC3200662D46 /* kei_voice_008_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3210C71F1D23EC3200662D46 /* kei_voice_008_1.mp3 */; };
+		3210C7221D25355900662D46 /* misawa_keybord.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3210C7211D25355900662D46 /* misawa_keybord.jpeg */; };
+		3210C7241D25357E00662D46 /* kei_voice_008_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3210C7231D25357E00662D46 /* kei_voice_008_1.mp3 */; };
+		3210C7261D25382400662D46 /* 01-09- LAST STARDUST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3210C7251D25382400662D46 /* 01-09- LAST STARDUST.mp3 */; };
+		3210C7281D253B1600662D46 /* enter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3210C7271D253B1600662D46 /* enter.jpg */; };
+		3210C72A1D2543F400662D46 /* type.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3210C7291D2543F400662D46 /* type.mp3 */; };
+		3210C72C1D2543FE00662D46 /* taaan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3210C72B1D2543FE00662D46 /* taaan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +53,12 @@
 		3210C7091D23E56600662D46 /* ッターン!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ッターン!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3210C70D1D23E56600662D46 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		3210C70F1D23E56600662D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3210C71D1D23E95D00662D46 /* misawa_keybord.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = misawa_keybord.jpeg; path = ../../../../Pictures/misawa_keybord.jpeg; sourceTree = "<group>"; };
-		3210C71F1D23EC3200662D46 /* kei_voice_008_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kei_voice_008_1.mp3; path = ../../../jenkins/kei_voice_008_1.mp3; sourceTree = "<group>"; };
+		3210C7211D25355900662D46 /* misawa_keybord.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = misawa_keybord.jpeg; path = ../../../../../Pictures/misawa_keybord.jpeg; sourceTree = "<group>"; };
+		3210C7231D25357E00662D46 /* kei_voice_008_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kei_voice_008_1.mp3; path = ../../../../jenkins/kei_voice_008_1.mp3; sourceTree = "<group>"; };
+		3210C7251D25382400662D46 /* 01-09- LAST STARDUST.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "01-09- LAST STARDUST.mp3"; path = "../../../../../Music/Amazon Music/Aimer/DAWN/01-09- LAST STARDUST.mp3"; sourceTree = "<group>"; };
+		3210C7271D253B1600662D46 /* enter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = enter.jpg; path = ../../../../../Pictures/enter.jpg; sourceTree = "<group>"; };
+		3210C7291D2543F400662D46 /* type.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = type.mp3; path = ../../../../../Downloads/type.mp3; sourceTree = "<group>"; };
+		3210C72B1D2543FE00662D46 /* taaan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = taaan.mp3; path = ../../../../../Downloads/taaan.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,10 @@
 		3210C6EC1D23E56600662D46 /* ッターン! */ = {
 			isa = PBXGroup;
 			children = (
-				3210C71F1D23EC3200662D46 /* kei_voice_008_1.mp3 */,
+				3210C72B1D2543FE00662D46 /* taaan.mp3 */,
+				3210C7291D2543F400662D46 /* type.mp3 */,
+				3210C7251D25382400662D46 /* 01-09- LAST STARDUST.mp3 */,
+				3210C7231D25357E00662D46 /* kei_voice_008_1.mp3 */,
 				3210C71C1D23E94D00662D46 /* images */,
 				3210C6ED1D23E56600662D46 /* AppDelegate.swift */,
 				3210C6EF1D23E56600662D46 /* ViewController.swift */,
@@ -134,7 +145,8 @@
 		3210C71C1D23E94D00662D46 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				3210C71D1D23E95D00662D46 /* misawa_keybord.jpeg */,
+				3210C7271D253B1600662D46 /* enter.jpg */,
+				3210C7211D25355900662D46 /* misawa_keybord.jpeg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -243,11 +255,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3210C71E1D23E95D00662D46 /* misawa_keybord.jpeg in Resources */,
+				3210C72A1D2543F400662D46 /* type.mp3 in Resources */,
+				3210C7241D25357E00662D46 /* kei_voice_008_1.mp3 in Resources */,
+				3210C7221D25355900662D46 /* misawa_keybord.jpeg in Resources */,
+				3210C7261D25382400662D46 /* 01-09- LAST STARDUST.mp3 in Resources */,
 				3210C6F81D23E56600662D46 /* LaunchScreen.storyboard in Resources */,
 				3210C6F51D23E56600662D46 /* Assets.xcassets in Resources */,
 				3210C6F31D23E56600662D46 /* Main.storyboard in Resources */,
-				3210C7201D23EC3200662D46 /* kei_voice_008_1.mp3 in Resources */,
+				3210C7281D253B1600662D46 /* enter.jpg in Resources */,
+				3210C72C1D2543FE00662D46 /* taaan.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +516,7 @@
 				3210C7141D23E56600662D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3210C7151D23E56600662D46 /* Build configuration list for PBXNativeTarget "ッターン!Tests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +525,7 @@
 				3210C7171D23E56600662D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3210C7181D23E56600662D46 /* Build configuration list for PBXNativeTarget "ッターン!UITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +534,7 @@
 				3210C71A1D23E56600662D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
