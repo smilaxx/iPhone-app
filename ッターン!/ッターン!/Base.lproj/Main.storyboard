@@ -20,9 +20,9 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="misawa_keybord.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="z8b-iy-B9C">
                                 <rect key="frame" x="40" y="20" width="240" height="320"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtr-3K-pfe">
-                                <rect key="frame" x="136" y="396" width="48" height="30"/>
-                                <state key="normal" title="ENTER"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtr-3K-pfe">
+                                <rect key="frame" x="107" y="361" width="77" height="91"/>
+                                <state key="normal" title="ENTER" image="enter.jpg"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bca-kv-D6a"/>
                                 </connections>
@@ -37,9 +37,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="455" y="300"/>
         </scene>
     </scenes>
     <resources>
+        <image name="enter.jpg" width="205" height="273"/>
         <image name="misawa_keybord.jpeg" width="240" height="320"/>
     </resources>
 </document>
