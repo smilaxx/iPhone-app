@@ -1,7 +1,7 @@
  node {
   stage 'Clone'
   echo 'clone start'
-  git "https://github.com/oz-sysb/apollo.git"
+  git "git@github.com:smilaxx/HapitasItemReply.git"
   echo 'clone end'
   
   stage 'Test Run'
