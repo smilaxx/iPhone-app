@@ -1,6 +1,6 @@
  node {
   stage 'Build and Test'
   echo 'test'
-  build()
+  build('job/てすとよう/')
 
  }
