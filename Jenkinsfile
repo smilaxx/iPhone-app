@@ -1,6 +1,6 @@
  node {
   stage 'Build and Test'
-  echo test
+  echo 'test'
   build()
 
  }
